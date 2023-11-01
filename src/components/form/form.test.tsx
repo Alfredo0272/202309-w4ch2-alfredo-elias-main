@@ -1,5 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import { UserForm } from './formUser';
+import '@testing-library/jest-dom';
 
 describe('Given Form component', () => {
   describe('When we instantiate', () => {
